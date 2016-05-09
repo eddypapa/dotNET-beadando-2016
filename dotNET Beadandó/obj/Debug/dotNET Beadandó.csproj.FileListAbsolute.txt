@@ -1,0 +1,6 @@
+c:\users\ádám\documents\visual studio 2015\Projects\dotNET Beadandó\dotNET Beadandó\bin\Debug\dotNET Beadandó.exe.config
+c:\users\ádám\documents\visual studio 2015\Projects\dotNET Beadandó\dotNET Beadandó\bin\Debug\dotNET Beadandó.exe
+c:\users\ádám\documents\visual studio 2015\Projects\dotNET Beadandó\dotNET Beadandó\bin\Debug\dotNET Beadandó.pdb
+c:\users\ádám\documents\visual studio 2015\Projects\dotNET Beadandó\dotNET Beadandó\obj\Debug\dotNET Beadandó.csprojResolveAssemblyReference.cache
+c:\users\ádám\documents\visual studio 2015\Projects\dotNET Beadandó\dotNET Beadandó\obj\Debug\dotNET Beadandó.exe
+c:\users\ádám\documents\visual studio 2015\Projects\dotNET Beadandó\dotNET Beadandó\obj\Debug\dotNET Beadandó.pdb
