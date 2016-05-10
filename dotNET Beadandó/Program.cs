@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Toth Adam D3F1KK .Net Beadando 2016
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -90,11 +91,32 @@ namespace dotNET_Beadandó
             }
             Console.WriteLine(" ");
 
-            
+            //---------STRING--------
 
+            // letrehozom a stringeket a ket dict-bol
+            var elemek = from kvp in dictionary
+                select kvp.Key;
+            string egybeDict = "{" + string.Join(",", elemek) + "}";
 
-            Console.ReadKey();
-            
+            var items = from kvp in backup
+                        select kvp.Key;
+            string egybeBack = "{" + string.Join(",", items) + "}";
+
+            //letrehozok egy uj backup stringet
+            string ujBackup = String.Copy(egybeDict);
+
+            //ellenorzom a masolast
+            if (String.Equals(egybeDict, ujBackup)) {
+                Console.WriteLine("A masolas ellenorizve!");
+            }
+
+            if (String.IsNullOrEmpty(egybeDict)) {
+                Console.WriteLine("Az atalakitott Dictionary nem ures!");
+            }
+
+            Console.WriteLine(egybeDict);
+                
+            Console.ReadKey();  
         }
     }
 }
